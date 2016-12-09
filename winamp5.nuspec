@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>winamp5</id>
+    <version>5.666</version>
+    <packageSourceUrl>https://github.com/metalseargolid/winamp-chocolatey</packageSourceUrl>
+    <owners>Alexander Alber</owners>
+    <title>WinAMP Full (International)</title>
+    <authors>Nullsoft</authors>
+    <projectUrl>https://getwinamp.com/</projectUrl>
+    <iconUrl>https://upload.wikimedia.org/wikipedia/en/4/4b/Winamp_logo.png</iconUrl>
+    <copyright>© 2013 Nullsoft</copyright>
+    <mailingListUrl>http://forums.winamp.com/</mailingListUrl>
+    <tags>winamp admin</tags>
+    <summary>Winamp Media Player for Windows - Version 5</summary>
+    <description>
+      WinAMP (Windows Audio MPEG Player) is a program from Nullsoft that allows PC users to play audio files, particularly music, in many (but not all) popular digital audio formats, including MS-Audio, WAV, and MP3. With WinAMP, it is possible to listen to SHOUTcast streaming radio broadcasts. The program allows the user to convert audio from analog tape recorders, phonographs, and other media to MP3 digital format, and it allows the user to burn MP3 files onto CDs. WinAMP can be configured to periodically scan folders on a computer hard drive for new media.
+
+      By default, this installer will install the English language. In order to install another language, you will need to install by using the `--not-silent` switch as follows so you may select the language:
+
+      ```
+      choco install --not-silent winamp5
+      ```
+
+      Note that WinAMP has been officially discontinued, and 5.666 is the last available version of the player (albeit now unsupported). However, there are plans to resurrect the project, you may subscribe to the notification list at http://www.winamp.com/index.html#five.
+    </description>
+    <releaseNotes>http://forums.winamp.com/showthread.php?t=373755</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" exclude="**\*~;**\#*" />
+  </files>
+</package>
