@@ -4,7 +4,9 @@
 Chocolatey package source for [WinAMP](https://getwinamp.com/).
 
 # Installing from Chocolatey
-`choco install winamp5`
+~~`choco install winamp5`~~ This was ultimately rejected. Keeping this around in memory of my favorite desktop media player. It really whips the llama's ass!
+
+RIP WinAmp
 
 ## Installing another language
 By default, this installer will install the English language. In order to install another language, you will need to install by using the `--not-silent` switch as follows so you may select the language:
